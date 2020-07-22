@@ -63,6 +63,8 @@ ls -ltr target/*-runner
 ```
 docker build -f src/main/docker/Dockerfile.native -t webinar-quarkus:native .
 
+docker build -f src/main/docker/Dockerfile.jvm -t webinar-quarkus:jvm .
+
 docker images | grep webinar
 ```
 
