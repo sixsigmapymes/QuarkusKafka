@@ -72,6 +72,8 @@ docker images | grep webinar
 ```
 docker run --name quarkus-jvm -i --rm -p 8081:8080 webinar-quarkus:jvm
 docker run --name quarkus-native -i --rm -p 8080:8080 webinar-quarkus:native
+
+docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" quarkus-native quarkus-jvm
 ```
 #### view docker statistic
 native quarkus
