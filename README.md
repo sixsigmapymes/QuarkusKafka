@@ -91,3 +91,9 @@ On openshift develoer console, deploy new container
 quay.io/efeluzy/quarkus-kafka-consumer:v3 as serverless
 quay.io/efeluzy/quarkus-kafka-producer:v3
 ```
+
+# Source Code for serverless demo
+- https://github.com/erfinfeluzy/quarkus-kafka-producer
+- https://github.com/erfinfeluzy/quarkus-kafka-consumer
+
+
