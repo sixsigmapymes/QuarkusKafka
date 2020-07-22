@@ -24,6 +24,8 @@ curl http://localhost:8080/hello
 ## Hot Deploy Demo
 open java file com.erfinfeluzy.GreetingResource, add below line. PS: dont foget to import @PathParam
 ```
+import javax.ws.rs.PathParam;
+...
 @Path("/{name}")
     @GET
     @Produces(MediaType.TEXT_PLAIN)
