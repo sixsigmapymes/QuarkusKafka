@@ -2,7 +2,7 @@
 
 ## generate quarkus project
 ```bash
-cd webinar-quarkus
+cd ~/Desktop/webinar-quarkus
 
 mvn io.quarkus:quarkus-maven-plugin:1.6.0.Final:create \
     -DprojectGroupId=com.erfinfeluzy \
